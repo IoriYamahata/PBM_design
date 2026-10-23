@@ -1,0 +1,6 @@
+# Python >=3.12; verified on Python 3.13. Install MAFFT separately.
+numpy==2.5.2
+torch==2.11.0
+transformers @ git+https://github.com/Biohub/transformers.git@ef32577f55da19a4989cd7b22e004dc43a4998cb
+safetensors==0.8.0
+PyYAML==6.0.3

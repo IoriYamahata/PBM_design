@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "alignment_sequences": 209,
+  "alignment_length": 148,
+  "columns_1based": [
+    8,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    68,
+    69,
+    74,
+    119,
+    120,
+    123,
+    126,
+    127
+  ],
+  "alignment_source": "https://www.nature.com/articles/nmeth.3438",
+  "alignment_supplement": "Supplementary Data 3; Archive_S3/PDZs_with_signal_1618E6_alignment_corr_ordered.fasta",
+  "binding_site_source": "Tonikian et al. (2008), A specificity map for the PDZ domain family",
+  "mapping_note": "17 contact-union sites transferred to fixed Holdup 2015 MSA columns; not raw query residue numbers",
+  "gap_policy": "zero vector; do not shift neighboring residues",
+  "blosum_source": "https://github.com/soedinglab/MMseqs2/blob/master/data/blosum62.out",
+  "redistribution_status": "local staging; third-party redistribution terms need author review before publication"
+}

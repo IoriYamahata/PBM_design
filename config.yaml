@@ -1,0 +1,24 @@
+format_version: 1
+weights:
+  - weights/model_1.pt
+  - weights/model_2.pt
+  - weights/model_3.pt
+reference:
+  alignment: reference/pdz_alignment.fasta
+  binding_sites: reference/binding_sites.json
+  blosum62: reference/blosum62.out
+esmc:
+  model_id: biohub/ESMC-600M
+  revision: a7e82012c83126b9eedb055fea9fa84b6c02f094
+  dtype: bfloat16
+mafft:
+  executable: mafft
+  version: "7.505"
+inference:
+  batch_size: 256
+search:
+  starts: 32
+  beam_width: 32
+  query_budget: 100000
+  top_k: 100
+  random_seed: 42

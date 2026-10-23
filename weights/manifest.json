@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "training_observations": 57581,
+  "files": {
+    "weights/model_1.pt": {
+      "training_initialization": 7,
+      "selected_epochs": 967,
+      "parameters": 2570474
+    },
+    "weights/model_2.pt": {
+      "training_initialization": 42,
+      "selected_epochs": 940,
+      "parameters": 2570474
+    },
+    "weights/model_3.pt": {
+      "training_initialization": 123,
+      "selected_epochs": 967,
+      "parameters": 2570474
+    }
+  }
+}
